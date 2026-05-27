@@ -1,0 +1,182 @@
+[General]
+decode_signals=1
+meta_objs=5
+views=1
+
+[2]
+color=4291559424
+conv_options=0
+conversion_type=0
+enabled=false
+name=2
+
+[3]
+color=4294277376
+conv_options=0
+conversion_type=0
+enabled=false
+name=3
+
+[4]
+color=4293776384
+conv_options=0
+conversion_type=0
+enabled=false
+name=4
+
+[5]
+color=4285780502
+conv_options=0
+conversion_type=0
+enabled=false
+name=5
+
+[6]
+color=4281623972
+conv_options=0
+conversion_type=0
+enabled=false
+name=6
+
+[7]
+color=4285878395
+conv_options=0
+conversion_type=0
+enabled=false
+name=7
+
+[HVAC]
+color=4287582722
+conv_options=0
+conversion_type=0
+enabled=true
+name=Split AC
+
+[WIFI]
+color=4279638298
+conv_options=0
+conversion_type=0
+enabled=true
+name=WiFi Module
+
+[decode_signal0]
+channel0\assigned_signal_name=WiFi Module
+channel0\initial_pin_state=2
+channel0\name=RX
+channel1\assigned_signal_name=Split AC
+channel1\initial_pin_state=2
+channel1\name=TX
+channels=2
+color=4281510450
+conv_options=0
+conversion_type=0
+decoder0\ann_class0\visible=true
+decoder0\ann_class1\visible=true
+decoder0\ann_class10\visible=true
+decoder0\ann_class11\visible=true
+decoder0\ann_class12\visible=true
+decoder0\ann_class13\visible=true
+decoder0\ann_class14\visible=true
+decoder0\ann_class15\visible=true
+decoder0\ann_class16\visible=true
+decoder0\ann_class17\visible=true
+decoder0\ann_class2\visible=true
+decoder0\ann_class3\visible=true
+decoder0\ann_class4\visible=true
+decoder0\ann_class5\visible=true
+decoder0\ann_class6\visible=true
+decoder0\ann_class7\visible=true
+decoder0\ann_class8\visible=true
+decoder0\ann_class9\visible=true
+decoder0\id=uart
+decoder0\option0\name=baudrate
+decoder0\option0\type=x
+decoder0\option0\value=@ByteArray(\x80%\0\0\0\0\0\0)
+decoder0\options=1
+decoder0\row0\visible=true
+decoder0\row1\visible=true
+decoder0\row2\visible=true
+decoder0\row3\visible=true
+decoder0\row4\visible=true
+decoder0\row5\visible=true
+decoder0\row6\visible=true
+decoder0\row7\visible=true
+decoder0\row8\visible=true
+decoder0\row9\visible=true
+decoder0\visible=true
+decoder1\ann_class0\visible=true
+decoder1\ann_class1\visible=true
+decoder1\ann_class2\visible=true
+decoder1\ann_class3\visible=true
+decoder1\ann_class4\visible=true
+decoder1\ann_class5\visible=true
+decoder1\id=tuyamcu
+decoder1\options=0
+decoder1\row0\visible=true
+decoder1\row1\visible=true
+decoder1\row2\visible=true
+decoder1\row3\visible=true
+decoder1\row4\visible=true
+decoder1\row5\visible=true
+decoder1\visible=true
+decoders=2
+enabled=true
+name=Tuya MCU
+
+[meta_obj0]
+assoc_view=0
+text=Remote Mode Dry
+time=22 serialization::archive 19 0 0 0 0 11595049 99999999 98013144 87513081 98552578 0 -8 0 0 6
+type=time_marker
+
+[meta_obj1]
+assoc_view=0
+text=Remote Mode Fan
+time=22 serialization::archive 19 0 0 0 0 83133183 33333333 80942065 10504591 27873182 0 -8 0 0 6
+type=time_marker
+
+[meta_obj2]
+assoc_view=0
+text=Remote Mode Heat
+time=22 serialization::archive 19 0 0 0 0 1 47204716 66666665 73320298 99407643 82481575 0 0 0 6
+type=time_marker
+
+[meta_obj3]
+assoc_view=0
+text=Remote Mode Auto
+time=22 serialization::archive 19 0 0 0 0 2 30014399 99999999 66377117 74383205 92045783 0 0 0 6
+type=time_marker
+
+[meta_obj4]
+assoc_view=0
+text=Remote Mode Cool
+time=22 serialization::archive 19 0 0 0 0 3 29696800 1 20763843 36978662 75906562 0 0 0 6
+type=time_marker
+
+[meta_obj5]
+assoc_view=0
+text=-128 ms
+time=22 serialization::archive 19 0 0 0 0 8 81429333 33333335 35506426 41494050 62198638 0 0 0 6
+type=time_marker
+
+[meta_obj6]
+assoc_view=0
+end_time=22 serialization::archive 19 0 0 0 0 8 94239710 99330564 47924317 26417848 71504797 0 0 0 6
+start_time=22 serialization::archive 19 0 0 0 0 5 51732456 91946467 26951449 31966783 35354818 0 0 0 6
+type=selection
+
+[view0]
+2\trace_height=34
+3\trace_height=34
+4\trace_height=34
+5\trace_height=34
+6\trace_height=34
+7\trace_height=34
+HVAC\trace_height=34
+WIFI\trace_height=34
+offset=22 serialization::archive 19 0 0 0 0 0 0 0 0 0 0 0 0 0 6
+scale=0.0014164898676592226
+segment_display_mode=3
+splitter_state=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0z\0\0\t\x81\x1\0\0\0\x1\x1\0\0\0\x1\0)
+v_offset=-591
+zero_offset=22 serialization::archive 19 0 0 0 0 0 0 0 0 0 0 0 0 0 6
